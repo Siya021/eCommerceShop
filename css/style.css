@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: fantasy;
+}
+body{
+    background-color: black;
+    color: white;
+}
+.box1{
+    background-color: green;
+    width: auto;
+    height: 20px; 
+}
+.box2{
+    background-color:yellow;
+    width: auto;
+    height: 10px;
+}
+.navbar{
+    background-color: black;
+    color: white;
+}
+.navbar a{
+    color: white;
+}
+#home-link{
+    color: white;
+}
+.box3{
+    background-color: red;
+    width: auto;
+    height: 10px;
+}
+.box4{
+    background-color: red;
+    width: auto;
+    height: 30px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box4 a{
+    text-decoration: none;
+    color: white;
+}
+.box4 a:hover{
+    color: black;
+}
+.footer{
+    background-color: yellow;
+    position: fixed;
+    left: 0;
+    width: auto;
+    bottom: 0;
+    height: 50px;
+    color: black;
+    text-align: center;
+    font-weight: 500;
+}
+.navbar-toggler :hover{
+    background-color: red;
+}
+.heading{
+    text-align: center;
+    margin-top: 20px;
+    text-decoration:underline red;
+}
+.form-box{
+    gap: 50px;
+    margin-top: 60px;
+    align-items: center;
+    margin-left: 150px;
+}
+.company-description{
+    text-align: center;
+    text-decoration: wavy;
+    font-family: 'Courier New', Courier, monospace;
+}
